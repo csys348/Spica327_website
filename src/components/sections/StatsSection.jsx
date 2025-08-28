@@ -71,7 +71,7 @@ const StatsSection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            <span className="gradient-text">Cammunity</span>의 성과
+            <span className="gradient-text">Spica 327</span>의 성과
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             지금까지의 성과와 성장 과정을 숫자로 확인해보세요
@@ -141,7 +141,7 @@ const StatsSection = () => {
               지속적인 성장과 혁신
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Cammunity는 끊임없는 도전과 혁신을 통해 더 나은 미래를 만들어가고 있습니다.
+              Spica 327는 끊임없는 도전과 혁신을 통해 더 나은 미래를 만들어가고 있습니다.
               우리의 성과는 단순한 숫자가 아닌, 고객과 함께 성장한 이야기입니다.
             </p>
             <p className="text-sm text-gray-500">

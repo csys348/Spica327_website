@@ -4,7 +4,7 @@ import { Users, Globe, Target, Award, Clock, Heart } from 'lucide-react'
 
 const About = () => {
   const companyInfo = {
-    name: 'Cammunity (캐뮤니티)',
+    name: 'Spica 327 (스피카 327)',
     founded: '2025년',
     headquarters: '도쿄, 일본 / 포항, 대한민국',
     employees: '6+',
@@ -47,8 +47,8 @@ const About = () => {
     {
       year: '2025',
       title: '회사 설립',
-      description: '일본 도쿄에서 Cammunity 설립',
-      japanese: '日本東京でキャミュニティ設立'
+      description: '한국 포항에서 Spica 327 설립',
+      japanese: '韓国ポハンでスピカ327設立'
     },
     {
       year: '2025',
@@ -88,7 +88,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-              <span className="gradient-text">Cammunity</span> 소개
+              <span className="gradient-text">Spica 327</span> 소개
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               일본과 한국을 연결하는 혁신적인 회사
@@ -146,14 +146,14 @@ const About = () => {
                     <span className="text-white text-3xl font-bold">C</span>
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                    Cammunity
+                    Spica 327
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    캐뮤니티는 일본과 한국의 문화적 차이를 이해하고, 
+                    스피카 327는 일본과 한국의 문화적 차이를 이해하고, 
                     이를 바탕으로 혁신적인 디지털 솔루션을 제공하는 회사입니다.
                   </p>
                   <p className="text-sm text-gray-500">
-                    キャミュニティは日本と韓国の文化的差異を理解し、
+                    スピカ327は日本と韓国の文化的差異を理解し、
                     それを基に革新的なデジタルソリューションを提供する会社です。
                   </p>
                 </div>
@@ -230,7 +230,7 @@ const About = () => {
               회사 연혁
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cammunity의 성장 과정
+              스피카 327의 성장 과정
             </p>
           </motion.div>
 
@@ -289,12 +289,12 @@ const About = () => {
                 미래 비전
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Cammunity는 단순한 기술 회사를 넘어, 
+                스피카 327는 단순한 기술 회사를 넘어, 
                 문화와 기술을 융합하여 새로운 가치를 창출하는 
                 글로벌 혁신 기업으로 성장하고자 합니다.
               </p>
               <p className="text-lg text-gray-500 mb-8">
-                キャミュニティは単なる技術会社を超えて、
+                スピカ327は単なる技術会社を超えて、
                 文化と技術を融合させて新しい価値を創造する
                 グローバル革新企業として成長したいと考えています。
               </p>

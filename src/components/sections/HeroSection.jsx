@@ -44,9 +44,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="gradient-text">Cammunity</span>
+            <span className="gradient-text">Spica 327</span>
             <br />
-            <span className="text-gray-800">캐뮤니티</span>
+            <span className="text-gray-800">スピカ 327</span>
           </motion.h1>
 
           {/* Subtitle */}

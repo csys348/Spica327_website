@@ -8,9 +8,9 @@ export default {
     extend: {
       colors: {
         primary: {
-          light: 'rgb(106, 220, 164)',
-          DEFAULT: 'rgb(106, 220, 164)',
-          dark: 'rgb(85, 176, 131)',
+          light: 'rgb(146, 157, 255)',
+          DEFAULT: 'rgb(146, 157, 255)',
+          dark: 'rgb(146, 157, 255)',
         },
         secondary: {
           light: 'rgb(53, 41, 226)',

@@ -28,10 +28,10 @@ const CTASection = () => {
               함께 성장할 준비가 되셨나요?
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Cammunity와 함께 혁신적인 프로젝트를 시작해보세요.
+              Spica 327와 함께 혁신적인 프로젝트를 시작해보세요.
               <br />
               <span className="text-lg text-white/80">
-                キャミュニティと一緒に革新的なプロジェクトを始めましょう。
+                スピカ327と一緒に革新的なプロジェクトを始めましょう。
               </span>
             </p>
           </motion.div>
@@ -74,10 +74,10 @@ const CTASection = () => {
               <h3 className="text-lg font-semibold text-white mb-2">이메일</h3>
               <p className="text-white/80 text-sm mb-2">Email</p>
               <a
-                href="mailto:campuslink@gmail.com"
+                href="mailto:spica327@gmail.com"
                 className="text-white hover:text-primary-light transition-colors duration-200"
               >
-                campuslink@gmail.com
+                spica327@gmail.com
               </a>
             </div>
 

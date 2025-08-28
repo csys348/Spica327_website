@@ -87,7 +87,7 @@ const FeaturesSection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            왜 <span className="gradient-text">Cammunity</span>인가요?
+            왜 <span className="gradient-text">Spica 327</span>인가요?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             우리만의 독특한 특징과 가치를 통해 고객에게 최고의 서비스를 제공합니다

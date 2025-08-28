@@ -43,8 +43,8 @@ const Navbar = () => {
               <span className="text-white font-bold text-xl">C</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-2xl font-bold gradient-text">Cammunity</h1>
-              <p className="text-xs text-gray-600">캐뮤니티</p>
+              <h1 className="text-2xl font-bold gradient-text">Spica 327</h1>
+              <p className="text-xs text-gray-600">스피카 327</p>
             </div>
           </Link>
 

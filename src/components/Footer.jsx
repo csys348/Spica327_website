@@ -45,7 +45,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">C</span>
               </div>
-              <h3 className="text-xl font-bold">Cammunity</h3>
+              <h3 className="text-xl font-bold">Spica 327</h3>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               일본 및 한국에서 활동하는 혁신적인 회사입니다.
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © {currentYear} Cammunity. All rights reserved.
+              © {currentYear} Spica 327. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <Link to="/privacy" className="hover:text-primary transition-colors duration-200">

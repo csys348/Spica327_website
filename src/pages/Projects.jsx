@@ -53,7 +53,7 @@ const Projects = () => {
       ],
       results: [
         '월간 활성 사용자 10,000명 달성',
-        '일본 주요 대학 15곳 이상 확장장',
+        '일본 주요 대학 15곳 이상 확장',
         '사용자 만족도 4.8/5.0 달성'
       ],
       japaneseResults: [
@@ -122,44 +122,46 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'EduBridge',
-      japaneseTitle: 'エデュブリッジ',
-      subtitle: '교육 플랫폼',
-      japaneseSubtitle: '教育プラットフォーム',
-      description: '일본과 한국의 학생들이 서로의 언어와 문화를 배울 수 있는 온라인 교육 플랫폼입니다.',
-      japaneseDescription: '日本と韓国の学生がお互いの言語と文化を学べるオンライン教育プラットフォームです。',
-      category: 'education',
+      title: 'Spica Music',
+      japaneseTitle: 'スピカミュージック',
+      subtitle: '음악 플랫폼',
+      japaneseSubtitle: '音楽プラットフォーム',
+      description: '일본의 사용자들이 자신이 개발한 다양한 창작물을 자유롭게 공유하고, 자신만의 공연을 시작하고, 다른 사람의 공연을 예매할 수 있는 통합 음악 플랫폼 입니다.',
+      japaneseDescription: '日本のユーザーが自分が開発した様々な創作物を自由に共有し、自分の演奏会を開始し、他のユーザーの演奏会を予約できる統合音楽プラットフォームです。',
+      category: 'music',
       status: 'planning',
-      technologies: ['React Native', 'Firebase', 'TensorFlow', 'Google Cloud'],
-      team: ['김정민', '최재훈', '최윤성'],
+      technologies: ['React', 'Node.js', 'Electron', 'SQL', 'Docker'],
+      team: ['김정민', '최재훈', '최윤성', '松村 太郎'],
       startDate: '2025년 9월',
       endDate: '계획중',
       image: '/api/placeholder/600/400',
       features: [
-        'AI 기반 개인 맞춤형 학습 경로',
-        '실시간 화상 수업 및 그룹 스터디',
-        '문화 교류 프로그램 및 이벤트',
-        '학습 진도 추적 및 성취도 분석',
-        '게임화된 학습 요소 및 보상 시스템'
+        '창작물 공유 및 평가 시스템',
+        '공연 예매 및 관리 시스템',
+        '라이브 및 연습실 검색 및 예약 시스템',
+        '음악 플랫폼 통합 커뮤니티 시스템',
+        '자유로운 라이브 녹화 및 공유 시스템'
       ],
       japaneseFeatures: [
-        'AIベース個人カスタマイズ学習パス',
-        'リアルタイム映像授業・グループスタディ',
-        '文化交流プログラム・イベント',
-        '学習進度追跡・達成度分析',
-        'ゲーミフィケーション学習要素・報酬システム'
+        '創作物共有・評価システム',
+        '演奏会予約・管理システム',
+        'ライブ・練習室検索・予約システム',
+        '統合音楽プラットフォーム統合コミュニティシステム',
+        '自由なライブ録画・共有システム'
       ],
       challenges: [
-        '개인별 학습 패턴 분석 및 최적화',
-        '실시간 다국어 통역 및 자막 제공',
-        '문화적 맥락을 고려한 교육 콘텐츠 제작',
-        '모바일 앱 성능 최적화'
+        '일본 문화와 사용자 심리를 반영한 현지화',
+        '책임 있는 익명성 기반의 건전한 커뮤니티 구축',
+        '일본 음악 및 공연 문화와 사용자 심리를 반영한 현지화',
+        '전국 단위 네트워크 효과 조기 활성화',
+        '분산된 다양한 공연정보의 실시간 연동'
       ],
       japaneseChallenges: [
-        '個人別学習パターン分析・最適化',
-        'リアルタイム多言語通訳・字幕提供',
-        '文化的文脈を考慮した教育コンテンツ制作',
-        'モバイルアプリ性能最適化'
+        '日本の文化とユーザー心理を反映したローカライゼーション',
+        '責任ある匿名性ベースの健全なコミュニティ構築',
+        '日本の音楽と演奏会文化とユーザー心理を反映したローカライゼーション',
+        '全国単位のネットワーク効果の早期活性化',
+        '分散された様々な演奏会情報のリアルタイム連携'
       ],
       results: [
         '프로젝트 계획 단계',
@@ -171,9 +173,9 @@ const Projects = () => {
         '初期投資誘致進行中',
         '2026年下半期リリース予定'
       ],
-      demoUrl: 'https://edubridge.cammunity.com',
-      githubUrl: 'https://github.com/cammunity/edubridge',
-      caseStudyUrl: '/projects/edubridge'
+      demoUrl: 'https://spica-music.cammunity.com',
+      githubUrl: 'https://github.com/cammunity/spica-music',
+      caseStudyUrl: '/projects/spica-music'
     },
     {
       id: 4,
@@ -229,7 +231,65 @@ const Projects = () => {
       demoUrl: null,
       githubUrl: null,
       caseStudyUrl: '/projects/techsync'
+    },
+    {
+      id: 5,
+      title: 'Camp',
+      japaneseTitle: 'キャンプ',
+      subtitle: '캠프',
+      japaneseSubtitle: 'キャンプ',
+      description: '일본에서 서비스하는 통합 지도 및 지도 포함 여러 서비스를 통합한 플랫폼입니다.',
+      japaneseDescription: '日本で提供される統合地図と地図を含む複数のサービスを統合したプラットフォームです。',
+      category: 'main',
+      status: 'planning',
+      technologies: ['Next.js', 'TypeScript', 'GraphQL', 'PostgreSQL', 'Docker'],
+      team: ['김정민', '최재훈', '최윤성', '松村 太郎'],
+      startDate: '2025년 9월',
+      endDate: '계획중',
+      image: '/api/placeholder/600/400',
+      features: [
+        '통합 지도 서비스',
+        '지도 포함 여러 서비스 통합',
+        '캠프 플랫폼 통합 커뮤니티 시스템',
+        '부동산, 예약, 예매, 쇼핑, 결제 등 다양한 서비스 통합',
+        '다양한 발전을 통해 다양한 서비스 경험 제공 목표'
+      ],
+      japaneseFeatures: [
+        '統合地図サービス',
+        '地図を含む複数のサービスを統合',
+        '統合コミュニティシステム',
+        '不動産、予約、予約、ショッピング、決済などの様々なサービスの統合',
+        '様々な発展を通じて様々なサービス体験を提供する目標'
+      ],
+      challenges: [
+        '일본 문화와 사용자 심리를 반영한 현지화',
+        '일본의 다양한 지리적 정보와 사용자 심리를 반영한 현지화',
+        '전국 단위 네트워크 효과 조기 활성화',
+        '분산된 다양한 서비스 정보의 실시간 연동',
+        '다양한 발전을 통한 다양한 미래 지향적 기술 개발'
+      ],
+      japaneseChallenges: [
+        '日本の文化とユーザー心理を反映したローカライゼーション',
+        '日本の地理情報とユーザー心理を反映したローカライゼーション',
+        '全国単位のネットワーク効果の早期活性化',
+        '分散された様々なサービス情報のリアルタイム連携',
+        '様々な発展を通じて様々な未来志向的技術開発'
+      ],
+      results: [
+        '프로젝트 계획 단계',
+        '초기 투자 유치 진행중',
+        '2026년 하반기 출시 예정'
+      ],
+      japaneseResults: [
+        'プロジェクト計画段階',
+        '初期投資誘致進行中',
+        '2026年下半期リリース予定'
+      ],
+      demoUrl: null,
+      githubUrl: null,
+      caseStudyUrl: '/projects/camp'
     }
+    
   ]
 
   const categories = [
@@ -283,7 +343,7 @@ const Projects = () => {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: Tag, number: '4', label: '프로젝트', japanese: 'プロジェクト' },
+              { icon: Tag, number: '5', label: '프로젝트', japanese: 'プロジェクト' },
               { icon: Users, number: '6+', label: '팀원 참여', japanese: 'チーム参加' },
               { icon: Calendar, number: '2025', label: '시작년도', japanese: '開始年' },
               { icon: Star, number: '95%', label: '성공률', japanese: '成功率' }
