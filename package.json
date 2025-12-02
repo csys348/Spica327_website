@@ -1,8 +1,8 @@
 {
   "name": "cammunity-website",
   "version": "1.0.0",
-  "description": "Cammunity - 일본 및 한국에서 활동하는 회사 웹사이트",
-  "homepage": "https://22500735.github.io/cammunity_website",
+  "description": "Spica327 - 당신의 청춘을 위해",
+  "homepage": "https://spica327.o-r.kr",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
